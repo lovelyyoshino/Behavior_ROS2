@@ -108,7 +108,7 @@ Step 3. Write execution flow.
     <BehaviorTree ID="MoveRobot">
         <Sequence name="SetGoal">
 <!--  导航客户端发送目标点  -->
-        <Nav2Client goal="{target}"/>
+            <Nav2Client goal="{target}"/>
         </Sequence>
     </BehaviorTree>
 </root>
