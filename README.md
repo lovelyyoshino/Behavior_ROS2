@@ -1,4 +1,4 @@
-# Behavior_Ros2_Humble
+# Behavior_ROS2
 Based on the behavior tree, the repository has written a general implementation of some common instructions in Ros2 Humble in the behavior tree. Including ros2 run, ros2 topic, etc., the purpose is to integrate it into the behavior tree to achieve multi-function orchestration in the behavior tree.
 
 | 功能 | 描述               | 文件   | 
