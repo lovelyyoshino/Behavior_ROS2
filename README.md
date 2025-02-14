@@ -20,6 +20,8 @@ Based on the behavior tree, the repository has written a general implementation 
 $ cd ~/Behavior_ros2/
 $ source /opt/ros/humble/setup.bash
 $ colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release
+$ . install/setup.bash
+$ ros2 launch bt_ros2 bt_ros2.launch.py
 ```
 ## Nake self node:
 If you want to customize some other behavior tree nodes, please write an hpp or cpp file, and then register it in bt_ros2.cpp, I have shown the example.
